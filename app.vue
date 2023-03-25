@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>PEREGILD</h1>
+    <h1>peregild</h1>
     <NuxtWelcome />
   </div>
 </template>
