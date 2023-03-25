@@ -1,0 +1,32 @@
+{
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "sourceType": "module"
+  },
+  "plugins":[
+    "vue","@typescripteslint"
+  ],
+  "extends":[
+    "plugin:@typescripteslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:vue/vue3recommended"
+  ],
+  "rules":{
+    "@typescripteslint/explicitmoduleboundarytypes":0,
+    "@typescripteslint/nounusedvars":0,
+    "vue/paddinglinebetweenblocks":[
+      "error","always"
+    ],
+    "vue/componenttagsorder":[
+      "error",{
+        "order":[
+          "script","template","style"
+        ]
+      }
+    ]
+  },
+  "ignorePatterns":[
+    "**/.nuxt/**","**/.output/**"
+  ]
+}
