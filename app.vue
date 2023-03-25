@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>peregild</h1>
-    <h2>test</h2>
+    <p class="text-8xl text-center">Tailwind CSS</p>
     <NuxtWelcome />
   </div>
 </template>
